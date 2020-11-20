@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Coding_Math</title>
+<style>
+  #wrap{width:1430px; margin:0 auto 0 auto;}
+  header{width:1430px;height:110px; margin: 0; background-color: lightgray;}
+  section{float:left;width:1150px;height:900px;}
+  aside{float:left; width:275px; height:900px;}
+  ul{list-style-type: none; margin:0; padding: 0; overflow: hidden;}
+  li{float:left;}
+  a:link, a:visited{display: block; width:407px; text-align: center; padding: 5px;
+  text-decoration: none;}
+  p{line-height: 10px;}
+  table{margin-bottom: 15px;}
+</style>
+</head>
+<body>
+<header>
+  <h1><center><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/index.html" style="color:white;text">
+    비전공자의 엔지니어 도전기</a></center></h1>
+  <h2><index style="color:gray;text"><center>Coding Math 공부하기</center></h2>
+</header>
+<section>
+<div id = "contents">
+<h2><p style = "color: #424242;">실수</p></h2>
+<hr align = left width = 90% color = lightgray size = 2>
+<h3>실수(real number)</h3>
+<p style = "color : #1C1C1C;">
+유리수와 무리수를 합쳐서 실수(real number)라고 부른다.
+<table border = "0" bordercolor = "none" align = "left" width = "400" height = "170">
+  <tr bgcolor="#9ffede" align="center">
+    <p><td colspan="5" span style="color: black">실수</td></p>
+  </tr>
+  <tr bgcolor="#d8bd77" align="center">
+    <p><td colspan="4" span style="color: black">유리수</td>
+      <td rowspan="3" span style="color: black">무리수</td></p>
+  </tr>
+  <tr bgcolor="#F5BCA9" align="center">
+    <p><td colspan="3" span style="color: black">정수</td>
+      <td rowspan="2" span style="color: black">정수가<br>아닌<br>유리수</td></p>
+  </tr>
+  <tr bgcolor="#A9D0F5" align="center">
+    <td>양의 정수<br>(자연수)</td>
+    <td>0</td>
+    <td>음의 정수</td>
+  </tr>
+</table>
+</p>
+<hr align = left width = 90% color = lightgray size = 2>
+<p style = "color : #1C1C1C;">
+<h3>컴퓨터에서의 실수 표현</h3>
+컴퓨터에서는 실수를 정수와 마찬가지로 0과 1만을 사용해서 표현해야 하기 때문에 실수를 표현하는 것이 정수에 비해 어렵다.<br>
+그 이유로 실수를 표현하기 위한 다양한 방법들이 연구되어 왔는데<br><br>
+1. 고정 소수점(fixed point) 방식 : 소수부의 자릿수를 미리 정하여, 고정된 자릿수의 소수를 표현하는 방식<br><br>
+2. 부동 소수점(floating point) 방식 : 하나의 실수를 가수부와 지수부로 나누어 표현하는 방식이 있다.<br>
+<div style = "float: left; margin-left: 8%; margin-top: 10px;">
+<table border = "1" bordercolor = "none" align = "left" width = "300" height = "100">
+  <tr bgcolor = "white" align = "center">
+    <p><td colspan="3" span style = "color: none">고정 소수점 방식(fixed point)</td></p>
+  </tr>
+  <tr bgcolor = "#acdbd0" align = "center">
+    <td>1비트</td>
+    <td>15비트</td>
+    <td>16비트</td>
+  </tr>
+  <tr bgcolor = "#ac9dd6" align = "center">
+    <td span style = "color: white">부호</td>
+    <td span style = "color: white">정수부</td>
+    <td span style = "color: white">소수부</td>
+  </tr>
+  <tr bgcolor = "#edc395" align = "center">
+    <td colspan="3" span style = "color: black">32비트</td>
+  </tr>
+</table>
+</div>
+<div style = "float: left; margin-left: 17%; margin-top: 10px;" >
+<table border = "1" bordercolor = "none" align = "left" width = "350" height = "100">
+  <tr bgcolor = "white" align = "center">
+    <p><td colspan="3" span style = "color: none">IEEE float형 부동 소수점 방식(floating point)</td></p>
+  </tr>
+  <tr bgcolor = "#acdbd0" align = "center">
+    <td>1비트</td>
+    <td>8비트</td>
+    <td>23비트</td>
+  </tr>
+  <tr bgcolor = "#ac9dd6" align = "center">
+    <td span style = "color: white">부호</td>
+    <td span style = "color: white">지수부</td>
+    <td span style = "color: white">가수부</td>
+  </tr>
+  <tr bgcolor = "#edc395" align = "center">
+    <td colspan="3" span style = "color: black">32비트</td>
+  </tr>
+</table>
+</div>
+</p>
+</div>
+</section>
+<aside>
+<div id = "sidebar">
+  <h3><p style="margin: 0; width: 1px;">Category</p></h3>
+  <hr align="left" color="black" size="2px">
+  <ul>
+  <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/0(%EC%BD%94%EB%94%A9%EC%88%98%ED%95%99)/0.html"
+    style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>Coding Math</strong></p></a>
+    <ul>
+      <li><a href="0-1-1.html" style="color:gray;text"><p style="float:left; margin-top: 10px;"><strong>-수의 체계</strong></p></a><br>
+        <ul>
+          <li><a href="0-1-1.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-정수</strong></p></a></li>
+          <li><a href="0-1-2.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-실수</strong></p></a></li>
+          <li><a href="0-1-3.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-분수</strong></p></a></li>
+        </ul></li>
+      <li><a href="0-2-1.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-수의 연산</strong></p></a></li>
+      <li><a href="0-3-1.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-수의 분해</strong></p></a></li>
+      <li><a href="0-4-1.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-수의 집합</strong></p></a></li>
+      <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/0(%EC%BD%94%EB%94%A9%EC%88%98%ED%95%99)/2(%ED%95%A8%EC%88%98)/0-1-1.html"
+        style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-함수와 삼각함수</strong></p></a></li>
+      <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/0(%EC%BD%94%EB%94%A9%EC%88%98%ED%95%99)/3(%EC%88%98%ED%95%99)/0-1-1.html"
+        style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-논리와 수학</strong></p></a></li>
+      <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/0(%EC%BD%94%EB%94%A9%EC%88%98%ED%95%99)/3(%EC%88%98%ED%95%99)/0-2-1.html"
+        style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>-코딩과 수학</strong></p></a></li>
+    </ul></li>
+  <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/1(html)/1.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>HTML</strong></p></a></li>
+
+  <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/2(css)/2.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>CSS</strong></p></a></li>
+
+  <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/3(python)/3.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>Python</strong></p></a></li>
+
+  <li><a href="file:///C:/Users/user/Desktop/web(coding)/%EC%BD%94%EB%94%A9%20%EA%B3%B5%EB%B6%80%20%EC%9B%B9/4(java)/4.html" style="color:gray;text"><p style="float:left; margin-top: 0;"><strong>Java</strong></p></a></li>
+
+  </ul>
+</div>
+</aside>
+</body>
+</html>
